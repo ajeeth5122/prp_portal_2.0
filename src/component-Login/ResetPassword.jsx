@@ -1,7 +1,7 @@
 import React, { useState } from "react";
 import "./ResetPassword.css";
 import ProductLogo from '../assets/LoginAssets/Eduhire.png'
-import resetPasswordImage from "../assets/LoginAssets/reset-password.png";
+import resetPasswordImage from "../assets/LoginAssets/ResetIllustration.png";
 import BackArrow from "../assets/LoginAssets/BackArrow.png"
 import PasswordIcon from '../assets/LoginAssets/PasswordIcon.png'
 import ShowPasswordIcon from '../assets/LoginAssets/ShowPasswordIcon.png'
@@ -12,7 +12,7 @@ import SignInArrow from '../assets/LoginAssets/SignInArrow.png'
 import { Link, useNavigate } from "react-router-dom";
 
 const ResetPasswordPage = () => {
-  const navigate = useNavigate( )
+  const navigate = useNavigate()
   const [formdata, setFormdata] = useState({
     password: "",
     confirmPassword: ""
@@ -86,36 +86,37 @@ const ResetPasswordPage = () => {
     <div className="PRP-Login-Page-Container">
       <div className='Prp-Login-Page-Left-container'>
         <div className="Prp-Login-Page-Left">
-          <div className='Prp-Product-Header-Container'>
-            <div className='Prp-ProductLogo-img-container'><img className='Prp-ProductLogo-img' src={ProductLogo} alt="ProductLogo" /></div>
-            <div>
-              <h4 className='Prp-Product-Title'>Placement & Recruitment Platform</h4>
-              <p className='Prp-Product-SubTitle'>Connect <span className='Prp-Seperator-Dot-white'></span> Discover <span className='Prp-Seperator-Dot-white'></span> Succeed</p>
-            </div>
-          </div>
           <div className='Prp-Product-HeroSec-Container'>
-            <h4 className='Prp-Product-HeroSec-welcome-Text'>RESET YOUR PASSWORD</h4>
-            <h3 className='Prp-Product-HeroSec-Text'>Reset your Password? <br />Get Back on Track.</h3>
-            <p className='Prp-Product-HeroSec-sub-heading'>Enter your registered email address and we’ll send you a link to reset your <br /> password.</p>
+            <h4 className='Prp-Product-HeroSec-welcome-Text'>AI Education & Workforce <br />Development Platform</h4>
+            <h3 className='Prp-Product-HeroSec-Text'>Reset your Password? <br /> Get Back on Track.</h3>
+            <p className='Prp-Product-HeroSec-sub-heading'>Quickly regain access to your verified internship credentials, university approvals, <br /> and active corporate placements.</p>
           </div>
-          {/* <div className='Prp-Login-Illustration-container' > */}
+
+
+          <div className='Prp-Login-Illustration-container'>
             <img className='Prp-Login-Illustration-img' src={resetPasswordImage} alt="" />
-          {/* </div> */}
+          </div>
         </div>
         <div className='Prp-Product-Info-Container'>
           <div className="prp-Product-Info-Image-container">
             <img src={shieldIcon} alt="" />
           </div>
           <div>
-            <p className='Prp-Product-Info-text'>“A unified platform that simplifies training,placements, and recruitment management.”</p>
-            <p className='Prp-Product-Info-text'>Dr. Elena Vance — Dean of Experiential Education, Northeastern Consortium</p>
+            <p className="Prp-ForgotPassword-quoteMain">
+              "A unified platform that simplifies training, placements, and
+              recruitment management."
+            </p>
+            <p className="Prp-ForgotPassword-quoteAuthor">
+              Dr. Elena Vance — Dean of Experiential Education, Northeastern
+              Consortium
+            </p>
           </div>
         </div>
       </div>
 
       <div className="Prp-Login-Page-Right">
-        <div onClick={()=>{navigate('/Login')}} className="Prp-ResetPassword-Back-Login">
-          <img src={BackArrow} className="Prp-ResetPassword-Back-Arrow"/>
+        <div onClick={() => { navigate('/Login') }} className="Prp-ResetPassword-Back-Login">
+          <img src={BackArrow} className="Prp-ResetPassword-Back-Arrow" />
           <p className="Prp-ResetPassword-Back-Title">Back to Login</p>
         </div>
         <form onSubmit={handleSubmit} className='Prp-Login-Page-form'>
@@ -138,9 +139,9 @@ const ResetPasswordPage = () => {
 
               />
               <div className="Prp-Login-Input-Icon-Wrapper'" onClick={() => setShowPassword(!showPassword)}>
-                <img className='Prp-Login-pwd-eye-icon' src={showPassword ? HidePasswordIcon : ShowPasswordIcon}  alt="Showpasswords" />
+                <img className='Prp-Login-pwd-eye-icon' src={showPassword ? HidePasswordIcon : ShowPasswordIcon} alt="Showpasswords" />
               </div>
-              
+
             </div>
             {error.password && (<span className="error-msg">{error.password}</span>)}
 
@@ -158,7 +159,7 @@ const ResetPasswordPage = () => {
             </div>
 
           </div>
-          
+
 
           <div className="Prp-Login-Input-Container">
             <label htmlFor="confirmPassword">Confirm Password</label>
@@ -174,9 +175,9 @@ const ResetPasswordPage = () => {
 
               />
               <div className="Prp-Login-Input-Icon-Wrapper'" onClick={() => setShowConfirmPassword(!showConfirmPassword)}>
-                  <img className='Prp-Login-pwd-eye-icon' src={showConfirmPassword ? HidePasswordIcon : ShowPasswordIcon}  alt="Showpasswords" />
+                <img className='Prp-Login-pwd-eye-icon' src={showConfirmPassword ? HidePasswordIcon : ShowPasswordIcon} alt="Showpasswords" />
               </div>
-              
+
             </div>
             {error.confirmPassword && (<span className="error-msg">{error.confirmPassword}</span>)}
           </div>
@@ -185,7 +186,7 @@ const ResetPasswordPage = () => {
             <input type="checkbox" />
             <p className='Prp-Login-Checkbox-Text'>Keep me signed in</p>
           </div>
-          <button onClick={()=>navigate('/ResetPassword/Successful')} type="submit" className='Prp-Login-Button'>
+          <button onClick={() => navigate('/ResetPassword/Successful')} type="submit" className='Prp-Login-Button'>
             <p>Reset Password</p>
             <img className='Prp-Login-Button-Icon' src={SignInArrow} alt="" />
 

@@ -6,6 +6,7 @@ import LoginPage from "./component-Login/LoginPage";
 import PasswordResetLink from "./component-Login/PasswordResetLink";
 import ResetSuccessful from "./component-Login/ResetSuccessful";
 import ResetPasswordPage from "./component-Login/ResetPassword";
+import OtpVerfication from "./component-Login/OtpVerfication";
 
 
 
@@ -25,8 +26,8 @@ const router = createBrowserRouter([
     element:<ForgotPassword/>
   },
    {
-    path: "/ResetPasswordLinkSent",
-    element:<PasswordResetLink/>
+    path: "/OtpVerification",
+    element:<OtpVerfication/>
   },
   {
     path:"/ResetPassword",

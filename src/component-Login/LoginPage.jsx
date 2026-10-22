@@ -11,6 +11,7 @@ import LearnIcon from '../assets/LoginAssets/LearnIcon.png'
 import TrustedIcon from '../assets/LoginAssets/TrustedIcon.png'
 import InfoIcon from '../assets/LoginAssets/InfoIcon.png'
 import SignInArrow from '../assets/LoginAssets/SignInArrow.png'
+import Upstock from '../assets/LoginAssets/Upstock.png'
 import './LoginPage.css'
 import { Link, useNavigate } from 'react-router-dom'
 
@@ -68,7 +69,7 @@ const LoginPage = () => {
 
     return (
         <div className='PRP-Login-Page-Container'>
-            <div className='Prp-Login-Page-Left-container'>
+            {/* <div className='Prp-Login-Page-Left-container'>
                 <div className='Prp-Login-Page-Left'>
                 <div className='Prp-Product-Header-Container'>
                     <div className='Prp-ProductLogo-img-container'><img className='Prp-ProductLogo-img' src={ProductLogo} alt="ProductLogo" /></div>
@@ -102,9 +103,52 @@ const LoginPage = () => {
                         <p className='Prp-Product-cards-sub-title'>Safe, transparent and <br /> reliable.</p>
                     </div>
                 </div>
-                {/* <div className='Prp-Login-Illustration-container' > */}
+                
                 <img className='Prp-Login-Illustration-img' src={LoginIllustration} alt="" />
-                {/* </div> */}
+                </div>
+                <div className='Prp-Product-Info-Container'>
+                    <img src={InfoIcon} alt="" />
+                    <p className='Prp-Product-Info-text'>Connecting students with the right opportunities to build successful careers.</p>
+                </div>
+            </div> */}
+             <div className='Prp-Login-Page-Left-container'>
+                <div className='Prp-Login-Page-Left'>
+                
+                <div className='Prp-Product-HeroSec-Container'>
+                    <h4 className='Prp-Product-HeroSec-welcome-Text'>AI Education & Workforce <br />Development Platform</h4>
+                    <h3 className='Prp-Product-HeroSec-Text'>Connecting academic talent with <br /> career-defining corporate internships</h3>
+                    <p className='Prp-Product-HeroSec-sub-heading'>The verified enterprise portal synchronizing university dean approvals, experiential learning hours, <br /> and Fortune 500 mentorship agreements</p>
+                </div>
+
+                <div className='Prp-Product-cards-wrapper'>
+                    <div className='Prp-Product-cards-container'>
+                        <h2 className='Prp-Product-cards-count'>14200+</h2>
+                        <p className='Prp-Product-cards-title'>Active Interns</p>
+                        <div className='Prp-Product-Image-Wrapper'>
+                        <img src={Upstock} alt="stock up" />
+                        <p className='Prp-Product-cards-sub-title'>+24% YoY</p>
+                        </div>
+                    </div>
+                    <div className='Prp-Product-cards-container'>
+                        <h2 className='Prp-Product-cards-count'>98.4%</h2>
+                        <p className='Prp-Product-cards-title'>Credit Verfied</p>
+                        <div className='Prp-Product-Image-Wrapper'>
+                        <img src={Upstock} alt="stock up" />
+                        <p className='Prp-Product-cards-sub-title'>Deans Approved</p>
+                        </div>
+                    </div>
+                    <div className='Prp-Product-cards-container'>
+                        <h2 className='Prp-Product-cards-count'>14200+</h2>
+                        <p className='Prp-Product-cards-title'>Active Interns</p>
+                        <div className='Prp-Product-Image-Wrapper'>
+                        <img src={Upstock} alt="stock up" />
+                        <p className='Prp-Product-cards-sub-title'>+24% YoY</p>
+                        </div>
+                    </div>
+                </div>
+                <div className='Prp-Login-Illustration-container'>
+                <img className='Prp-Login-Illustration-img' src={LoginIllustration} alt="" />
+                </div>
                 </div>
                 <div className='Prp-Product-Info-Container'>
                     <img src={InfoIcon} alt="" />
