@@ -1,0 +1,691 @@
+.PRP-Registration-Page-Container{
+    padding: 10px 25px;
+    background: linear-gradient(to left, #ffffff 20% , #566B94 98%  );
+    min-height: 100%;
+    max-height: 1080px;
+    display: flex;
+    gap: 100px;
+    font-family:'Open Sans', sans-serif;
+    justify-content: center;
+}
+.Prp-registration-Page-Right{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 700px
+}
+.Prp-Registration-Field textarea{
+    padding: 5px 15px;
+    font-family:'Open Sans', sans-serif;
+    border-radius: 8px;
+    border: 1px solid #9AA8C0;;
+
+}
+.Prp-Register-Button{
+    display: flex;
+    width: 100%;
+    padding: 10px 0;
+    color: #ffffff;
+    align-items: center;
+    gap: 7px;
+    justify-content: center;
+    background-color: #132A56;
+    cursor: pointer;
+    border-radius: 8px;
+}
+
+.prp-WelcomeRegistration-Form-Header {
+    display: flex;
+    flex-direction: column;
+}
+.prp-WelcomeRegistration-Form-Header h2 {
+    font-size: 32px;
+    font-weight: 700;
+    color: #132A56;
+}
+.prp-WelcomeRegistration-Form-Header p {
+    font-size: 16px;
+    font-weight: 400;
+    color: #132A56;
+}
+.prp-WelcomeRegistration-Role-Group {
+    display: flex;
+    flex-direction: column;
+    gap: 8px;
+    width: 100%;
+}
+.prp-WelcomeRegistration-Role-Group label {
+    font-size: 10px;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+    color: #132A56;
+}
+.prp-WelcomeRegistration-Role-Group label span {
+    color: #F44336;
+}
+.prp-WelcomeRegistration-Select-Wrapper {
+    position: relative;
+    display: flex;
+    align-items: center;
+    width: 100%;
+}
+.prp-WelcomeRegistration-Select-Wrapper select {
+    appearance: none;
+    width: 100%;
+    padding: 15px 20px;
+    border: 1px solid #9AA8C0;
+    border-radius: 5px;
+    outline: none;
+    background-color: #FFFFFF;
+    color: #132A56;
+    font-family: inherit;
+    font-size: 13px;
+    font-weight: 400;
+    cursor: pointer;
+    box-sizing: border-box;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+}
+.prp-WelcomeRegistration-Select-Wrapper select:focus {
+    border-color: #132A56;
+    box-shadow: 0 0 0 3px #132A5620;
+}
+.prp-WelcomeRegistration-Select-Arrow {
+    position: absolute;
+    top: 50%;
+    right: 17px;
+    width: 20px;
+    height: 20px;
+    transform: translateY(-50%);
+    object-fit: contain;
+    pointer-events: none;
+
+}
+.Prp-Registration-Field {
+  display: flex;
+  flex-direction: column;
+  min-width: 0;
+  gap: 5px;
+}
+
+.Prp-Registration-Field label {
+  margin-bottom: 3px;
+  color: #405477;
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.Prp-Registration-Field input {
+  display: block;
+  width: 100%;
+  padding: 10px 8px;
+  border: 1px solid #9AA8C0;
+  border-radius: 5px;
+  outline: none;
+  background: #fff;
+  color: #132A56;
+  font-family:'Open Sans', sans-serif;
+  font-size: 16px;
+  transition: border-color 0.2s, box-shadow 0.2s;
+}
+
+.Prp-Registration-Field  input::placeholder {
+  color: #9ba4b2;
+}
+
+.Prp-Registration-Field select {
+  cursor: pointer;
+}
+
+.Prp-Registration-Field  input:focus{
+  border-color: #536b96;
+  box-shadow: 0 0 0 2px rgba(83, 107, 150, 0.1);
+}
+
+.Prp-Reg-Terms-Text{
+    color: #132A56;
+    font-weight: 600;
+    text-decoration: none;
+    font-size: 12px;
+}
+.Prp-Registration-Button-Container{
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+.Prp-Registration-Header-Img-Cont{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 44px;
+    height: 44px;
+    background: #132A56;
+    border-radius: 12px;
+}
+.Prp-Registration-Header-Img-Cont img{
+    width: 22px;
+}
+.Prp-Registration-Title-Wrapper{
+    display: flex;
+    flex-direction: column;
+}
+.Prp-Registration-Header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #FFFFFF;
+    
+}
+.Prp-Product-Header-Title-Text{
+    font-size: 20px;
+    font-weight: 700;
+}
+.Prp-Product-Header-Slogan{
+    display: flex;
+    align-items: center;
+    font-size: 12px;
+    font-weight: 600;
+}
+.Prp-Slogan-Seperator-Dot{
+    min-height: 4px;
+    min-width: 4px;
+    height: 2px;
+    width: 2px;
+    background-color: #ffffff;
+    border-radius: 50%;
+    margin-top: 3px;
+    margin-left:  5px;
+    margin-right:  5px;
+}
+.Prp-Product-Registration-Slogan{
+    font-size: 30px;
+    color: #132A56;
+}
+.Prp-Registration-Left-Footer-Img{
+    width: 30px;
+}
+.Prp-Registration-Left-Footer-text{
+    display: flex;
+    flex-direction: column;
+    font-size: 16px;
+    color: #333334;
+    
+}
+.Prp-Registration-Hor-Seperator{
+    min-height: 35px;
+    width: 1px;
+    background-color: #000000;
+}
+.Prp-Registration-Left-Footer-Secondary{
+    color: #132A56;
+}
+.Prp-Registration-Verify-Btn{
+    margin-right: 10px;
+    background-color: #132A56;
+    color: #FFFFFF;
+    padding: 4px 8px;
+    border-radius: 6px;
+    border: none;
+    font-weight: 700;
+    font-size: 12px;
+    cursor: pointer;
+}
+
+.Prp-Reg-Back-Btn{
+    display: flex;
+    gap: 5px;
+    align-items: center;
+    width: fit-content;
+    background-color: #132A56;
+    padding: 7px 10px;
+    color: #FFFFFF;
+    border-radius: 8px;
+    cursor: pointer;
+}
+.Prp-Reg-Back-Btn p{
+    font-size: 12px;
+}
+@media screen and (max-width: 1599px){
+    .prp-WelcomeRegistration-Select-Wrapper select {
+        padding: 10px 15px;
+    }
+    .Prp-Registration-Field {
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+
+.Prp-Registration-Field label {
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.Prp-Registration-Field input {
+  padding: 10px 15px;
+  font-size: 13px;
+}
+
+.Prp-Registration-Field  input::placeholder {
+  color: #9ba4b2;
+}
+
+.Prp-Registration-Field select {
+  cursor: pointer;
+}
+.Prp-Product-Registration-Slogan{
+    font-size: 24px;
+    color: #132A56;
+}
+
+.Prp-Registration-Left-Footer-text{
+    font-size: 12px;
+    
+}
+.Prp-Registration-Hor-Seperator{
+    min-height: 25px;
+}
+.Prp-Registration-Header-Img-Cont{
+    width: 40px;
+    height: 40px;
+    border-radius: 10px;
+}
+.Prp-Registration-Header-Img-Cont img{
+    width: 20px;
+}
+
+.Prp-Registration-Header{
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    color: #FFFFFF;
+    
+}
+.Prp-Product-Header-Title-Text{
+    font-size: 18px;
+    font-weight: 700;
+}
+.Prp-Product-Header-Slogan{
+    font-size: 12px;
+    font-weight: 600;
+}
+.Prp-Slogan-Seperator-Dot{
+    min-height: 4px;
+    min-width: 4px;
+    margin-top: 3px;
+    margin-left:  3px;
+    margin-right:  3px;
+}
+
+}
+@media screen and (max-width: 1365px) {
+    .prp-WelcomeRegistration-Select-Wrapper select {
+        padding: 8px 12px;
+    }
+    
+    .Prp-Registration-Field {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .Prp-Registration-Field label {
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+    .Prp-Registration-Field input {
+        padding: 8px 12px;
+        font-size: 12px;
+    }
+
+    .Prp-Registration-Field input::placeholder {
+        color: #9ba4b2;
+    }
+
+    .Prp-Registration-Field select {
+        cursor: pointer;
+    }
+
+    .Prp-Product-Registration-Slogan {
+        font-size: 20px;
+        color: #132A56;
+    }
+
+    .Prp-Registration-Left-Footer-text {
+        font-size: 11px;
+    }
+
+    .Prp-Registration-Hor-Seperator {
+        min-height: 20px;
+    }
+
+    .Prp-Registration-Header-Img-Cont {
+        width: 36px;
+        height: 36px;
+        border-radius: 8px;
+    }
+
+    .Prp-Registration-Header-Img-Cont img {
+        width: 18px;
+    }
+
+    .Prp-Registration-Header {
+        display: flex;
+        align-items: center;
+        gap: 8px;
+        color: #FFFFFF;
+    }
+
+    .Prp-Product-Header-Title-Text {
+        font-size: 16px;
+        font-weight: 700;
+    }
+
+    .Prp-Product-Header-Slogan {
+        font-size: 11px;
+        font-weight: 600;
+    }
+
+    .Prp-Slogan-Seperator-Dot {
+        min-height: 3px;
+        min-width: 3px;
+        margin-top: 2px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+}
+
+/* Laptops & Tablets (1024px and below) */
+@media screen and (max-width: 1024px) {
+    .prp-WelcomeRegistration-Select-Wrapper select {
+        padding: 7px 10px;
+    }
+    
+    .Prp-Registration-Field {
+        display: flex;
+        flex-direction: column;
+        gap: 4px;
+    }
+
+    .Prp-Registration-Field label {
+        font-size: 11px;
+        font-weight: 500;
+    }
+
+    .Prp-Registration-Field input {
+        padding: 7px 10px;
+        font-size: 11px;
+    }
+
+    .Prp-Registration-Field input::placeholder {
+        color: #9ba4b2;
+    }
+
+    .Prp-Registration-Field select {
+        cursor: pointer;
+    }
+
+    .Prp-Product-Registration-Slogan {
+        font-size: 18px;
+        color: #132A56;
+    }
+
+    .Prp-Registration-Left-Footer-text {
+        font-size: 10px;
+    }
+
+    .Prp-Registration-Hor-Seperator {
+        min-height: 16px;
+    }
+
+    .Prp-Registration-Header-Img-Cont {
+        width: 32px;
+        height: 32px;
+        border-radius: 6px;
+    }
+
+    .Prp-Registration-Header-Img-Cont img {
+        width: 16px;
+    }
+
+    .Prp-Registration-Header {
+        display: flex;
+        align-items: center;
+        gap: 6px;
+        color: #FFFFFF;
+    }
+
+    .Prp-Product-Header-Title-Text {
+        font-size: 15px;
+        font-weight: 700;
+    }
+
+    .Prp-Product-Header-Slogan {
+        font-size: 10px;
+        font-weight: 600;
+    }
+
+    .Prp-Slogan-Seperator-Dot {
+        min-height: 3px;
+        min-width: 3px;
+        margin-top: 2px;
+        margin-left: 2px;
+        margin-right: 2px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .prp-WelcomeRegistration-Select-Wrapper select {
+        padding: 6px 8px;
+    }
+
+    .Prp-Registration-Field label {
+        font-size: 10px;
+    }
+
+    .Prp-Registration-Field input {
+        padding: 6px 8px;
+        font-size: 10px;
+    }
+
+    .Prp-Product-Registration-Slogan {
+        font-size: 16px;
+    }
+
+    .Prp-Registration-Left-Footer-text {
+        font-size: 9px;
+    }
+
+    .Prp-Registration-Hor-Seperator {
+        min-height: 12px;
+    }
+
+    .Prp-Registration-Header-Img-Cont {
+        width: 28px;
+        height: 28px;
+        border-radius: 5px;
+    }
+
+    .Prp-Registration-Header-Img-Cont img {
+        width: 14px;
+    }
+
+    .Prp-Product-Header-Title-Text {
+        font-size: 14px;
+    }
+
+    .Prp-Product-Header-Slogan {
+        font-size: 9px;
+    }
+}
+
+
+@media screen and (max-width: 480px) {
+    .prp-WelcomeRegistration-Select-Wrapper select {
+        padding: 5px 8px;
+    }
+    .prp-WelcomeRegistration-Role-Group{
+        width: 300px;
+    }
+    .Prp-Registration-Field{
+        width: 300px;
+    }
+    .prp-WelcomeRegistration-Form-Header h2{
+        font-size: 22px;
+    }
+    .prp-WelcomeRegistration-Form-Header p{
+        font-size: 12px;
+    }
+
+    .Prp-Registration-Field label {
+        font-size: 9px;
+    }
+
+    .Prp-Registration-Field input {
+        padding: 5px 8px;
+        font-size: 9px;
+    }
+
+    .Prp-Product-Registration-Slogan {
+        font-size: 14px;
+    }
+
+    .Prp-Registration-Header-Img-Cont {
+        width: 24px;
+        height: 24px;
+    }
+
+    .Prp-Registration-Header-Img-Cont img {
+        width: 12px;
+    }
+
+    .Prp-Product-Header-Title-Text {
+        font-size: 13px;
+    }
+
+    .Prp-Product-Header-Slogan {
+        font-size: 8px;
+    }
+}
+/* @media screen and (max-width: 1365px){
+
+}
+@media (max-width: 1200px) {
+    .prp-WelcomeRegistration-Left {
+        flex-basis: 45%;
+    }
+    .prp-WelcomeRegistration-Content {
+        padding: 0 28px;
+    }
+    .prp-WelcomeRegistration-Intro h1 {
+        font-size: 29px;
+    }
+    .prp-WelcomeRegistration-Illustration {
+        height: 270px;
+    }
+    .prp-WelcomeRegistration-Right {
+        padding: 160px 30px 50px;
+    }
+    .prp-WelcomeRegistration-Form-Header h2 {
+        font-size: 25px;
+    }
+}
+@media (max-width: 900px) {
+    .prp-WelcomeRegistration-Container {
+        flex-direction: column;
+    }
+    .prp-WelcomeRegistration-Left {
+        flex: none;
+        width: 100%;
+        min-height: auto;
+        padding: 40px 0 35px;
+    }
+    .prp-WelcomeRegistration-Content {
+        max-width: 650px;
+        padding: 0 28px;
+    }
+    .prp-WelcomeRegistration-Intro h1 {
+        max-width: 550px;
+        font-size: 30px;
+    }
+    .prp-WelcomeRegistration-Illustration {
+        height: 300px;
+        margin: 20px 0;
+    }
+    .prp-WelcomeRegistration-Features,
+    .prp-WelcomeRegistration-Testimonial {
+        max-width: 100%;
+    }
+    .prp-WelcomeRegistration-Right {
+        flex: none;
+        width: 100%;
+        min-height: 350px;
+        padding: 55px 28px 70px;
+        background-color: #FFFFFF;
+    }
+    .prp-WelcomeRegistration-Form {
+        max-width: 650px;
+    }
+}
+@media (max-width: 480px) {
+    .prp-WelcomeRegistration-Left {
+        padding: 30px 0;
+    }
+    .prp-WelcomeRegistration-Content {
+        padding: 0 20px;
+    }
+    .prp-WelcomeRegistration-Intro {
+        gap: 14px;
+    }
+    .prp-WelcomeRegistration-Intro h1 {
+        font-size: 25px;
+        line-height: 1.35;
+    }
+    .prp-WelcomeRegistration-Intro p {
+        font-size: 12px;
+        line-height: 21px;
+    }
+    .prp-WelcomeRegistration-Illustration {
+        height: 230px;
+        margin: 16px 0 20px;
+    }
+    .prp-WelcomeRegistration-Features {
+        gap: 14px;
+    }
+    .prp-WelcomeRegistration-Feature-Item {
+        gap: 10px;
+        padding: 12px;
+        border-radius: 10px;
+    }
+    .prp-WelcomeRegistration-Feature-Text h3 {
+        font-size: 12px;
+    }
+    .prp-WelcomeRegistration-Feature-Text p {
+        font-size: 10px;
+        line-height: 15px;
+    }
+    .prp-WelcomeRegistration-Testimonial {
+        margin-top: 28px;
+        padding-top: 20px;
+    }
+    .prp-WelcomeRegistration-Testimonial-Author p {
+        font-size: 9px;
+    }
+    .prp-WelcomeRegistration-Right {
+        padding: 40px 20px 55px;
+    }
+    .prp-WelcomeRegistration-Form {
+        gap: 20px;
+    }
+    .prp-WelcomeRegistration-Form-Header h2 {
+        font-size: 23px;
+    }
+    .prp-WelcomeRegistration-Form-Header p {
+        font-size: 11px;
+    }
+    .prp-WelcomeRegistration-Select-Wrapper select {
+        height: 46px;
+        font-size: 12px;
+    }
+} */

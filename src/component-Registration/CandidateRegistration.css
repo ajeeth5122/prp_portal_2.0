@@ -1,0 +1,204 @@
+.Prp-Registration-Field-Wrapper{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    gap: 10px;
+}
+
+.Prp-Candidate-Password-Wrapper {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  background-color: #ffffff;
+  border-radius: 5px;
+  border: 1px solid #9AA8C0;
+}
+.Prp-Registration-PasswordInput{
+   background: transparent !important;
+   border: none !important;
+   outline: none !important;
+   
+}
+.Prp-Candidate-Password-Toggle{
+    font-size: 12px;
+    color: #536b96;
+    padding-right: 15px;
+}
+
+.Prp-Registration-Checkbox{
+    width: 16px;
+    height: 16px;
+}
+
+.Prp-Candidate-Error {
+  display: block;
+  color: #d92d20;
+  font-size: 11px;
+}
+
+.Prp-Registration-Login-Text{
+    display: flex;
+    font-size: 14px;
+    text-align: center;
+    justify-content: center;
+    color: #132A46;
+}
+
+.Prp-Registration-Login-Text a {
+  margin-left: 5px;
+  color: #17315b;
+  font-weight: 700;
+  text-decoration: none;
+}
+
+.Prp-Registration-Login-Text a:hover {
+  text-decoration: underline;
+}
+
+.Prp-Registration-Login-Text{
+  color: #132A46;
+  font-size: 14px;
+}
+
+@media screen and (max-width: 1365px) {
+    .Prp-Registration-Field-Wrapper {
+        display: grid;
+        grid-template-columns: 1fr 1fr;
+        gap: 8px;
+    }
+
+    .Prp-Candidate-Password-Wrapper {
+        display: flex;
+        align-items: center;
+        justify-content: space-between;
+        width: 100%;
+        background-color: #ffffff;
+        border-radius: 5px;
+        border: 1px solid #9AA8C0;
+    }
+
+    .Prp-Registration-PasswordInput {
+        background: transparent !important;
+        border: none !important;
+        outline: none !important;
+    }
+
+    .Prp-Candidate-Password-Toggle {
+        font-size: 11px;
+        color: #536b96;
+        padding-right: 12px;
+    }
+
+    .Prp-Registration-Checkbox {
+        width: 15px;
+        height: 15px;
+    }
+
+    .Prp-Candidate-Error {
+        display: block;
+        color: #d92d20;
+        font-size: 10px;
+    }
+
+    .Prp-Registration-Login-Text {
+        display: flex;
+        font-size: 13px;
+        text-align: center;
+        justify-content: center;
+        color: #132A46;
+    }
+
+    .Prp-Registration-Login-Text a {
+        margin-left: 5px;
+        color: #17315b;
+        font-weight: 700;
+        text-decoration: none;
+    }
+
+    .Prp-Registration-Login-Text a:hover {
+        text-decoration: underline;
+    }
+}
+
+@media screen and (max-width: 1024px) {
+    .Prp-Registration-Field-Wrapper {
+        gap: 8px;
+    }
+
+    .Prp-Candidate-Password-Toggle {
+        font-size: 10px;
+        padding-right: 10px;
+    }
+
+    .Prp-Registration-Checkbox {
+        width: 14px;
+        height: 14px;
+    }
+
+    .Prp-Candidate-Error {
+        font-size: 10px;
+    }
+
+    .Prp-Registration-Login-Text {
+        font-size: 12px;
+    }
+
+    .Prp-Registration-Login-Text a {
+        margin-left: 4px;
+    }
+}
+
+
+@media screen and (max-width: 768px) {
+    .Prp-Registration-Field-Wrapper {
+        grid-template-columns: 1fr; 
+        gap: 6px;
+    }
+
+    .Prp-Candidate-Password-Toggle {
+        font-size: 10px;
+        padding-right: 8px;
+    }
+
+    .Prp-Registration-Checkbox {
+        width: 13px;
+        height: 13px;
+    }
+
+    .Prp-Candidate-Error {
+        font-size: 9px;
+    }
+
+    .Prp-Registration-Login-Text {
+        font-size: 11px;
+    }
+}
+
+@media screen and (max-width: 480px) {
+    .Prp-Registration-Field-Wrapper {
+        grid-template-columns: 1fr;
+        gap: 5px;
+    }
+
+    .Prp-Candidate-Password-Toggle {
+        font-size: 9px;
+        padding-right: 6px;
+    }
+
+    .Prp-Registration-Checkbox {
+        width: 12px;
+        height: 12px;
+    }
+
+    .Prp-Candidate-Error {
+        font-size: 9px;
+    }
+
+    .Prp-Registration-Login-Text {
+        font-size: 10px;
+    }
+
+    .Prp-Registration-Login-Text a {
+        margin-left: 3px;
+    }
+}
