@@ -31,7 +31,7 @@ const WelcomeRegistration = () => {
         const chosenRole = e.target.value;
         setSelectedRole(chosenRole);
         if (chosenRole) {
-            navigate(`/registration/${chosenRole.toLowerCase().replace(/\s+/g, '-')}`);
+            navigate(`/Registration/${chosenRole.toLowerCase().replace(/\s+/g, '-')}`);
         } else {
             navigate('/register');
         }

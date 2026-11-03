@@ -156,7 +156,7 @@ const handleSubmit = (e) => {
             <img className="Prp-ForgotPassword-arrowIcon" src={ArrowRight} alt="" />
           </button>
 
-          <div style={{textAlign:"center"}}>Back to Login</div>
+          <div onClick={()=>{navigate('/Login')}} className='Prp-Login-forgot-Text' style={{textAlign:"center"}}>Back to Login</div>
         </form>
       </div>
 

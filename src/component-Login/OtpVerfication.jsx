@@ -216,12 +216,7 @@ const handleSubmit = (e) => {
                         )}
                     </div>
 
-                    <div 
-                        style={{ textAlign: "center", cursor: "pointer", marginTop: "10px" }} 
-                        onClick={() => navigate("/login")}
-                    >
-                        Back to Login
-                    </div>
+                    <div onClick={()=>{navigate('/Login')}} className='Prp-Login-forgot-Text' style={{textAlign:"center"}}>Back to Login</div>
                 </form>
             </div>
         </div>

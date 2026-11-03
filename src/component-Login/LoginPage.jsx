@@ -202,7 +202,7 @@ const LoginPage = () => {
                         <img className='Prp-Login-Google-icon' src={GoogleIcon} alt="Google" />
                         <p>Google</p>
                     </div>
-                    <p className='Prp-Login-Account-Creation-Link'>Don't have an account? <Link>Create Account</Link></p>
+                    <p className='Prp-Login-Account-Creation-Link'>Don't have an account? <Link onClick={()=>{navigate('/Registration')}}>Create Account</Link></p>
                     <div className='Prp-Login-NavLinks'>
                     <Link>Help</Link>
                      <span className='Prp-Seperator-Dot-Black'></span>

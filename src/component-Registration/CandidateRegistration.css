@@ -16,9 +16,13 @@
 .Prp-Registration-PasswordInput{
    background: transparent !important;
    border: none !important;
-   outline: none !important;
-   
+   outline: none !important;  
 }
+.Prp-Registration-PasswordInput:focus{
+    border-color: none !important;
+    box-shadow: none !important;
+}
+
 .Prp-Candidate-Password-Toggle{
     font-size: 12px;
     color: #536b96;

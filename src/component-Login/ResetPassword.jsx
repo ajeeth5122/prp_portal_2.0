@@ -144,8 +144,8 @@ const ResetPasswordPage = () => {
 
             </div>
             {error.password && (<span className="error-msg">{error.password}</span>)}
-
-            <div className="Prp-ResetPassword-Strength-Row">
+            {formdata.password && (
+              <div className="Prp-ResetPassword-Strength-Row">
               <div className="Prp-ResetPassword-Strength-Bar">
                 <div
                   className={`Prp-ResetPassword-Strength-Progress ${strength.className}`}
@@ -157,6 +157,8 @@ const ResetPasswordPage = () => {
                 <span className={`Strengthmeter-${strength.className}`}> {strength.text}</span>
               </p>
             </div>
+            )}
+            
 
           </div>
 

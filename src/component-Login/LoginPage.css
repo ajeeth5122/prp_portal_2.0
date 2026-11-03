@@ -7,19 +7,17 @@
     gap: 100px;
     font-family:'Open Sans', sans-serif;
     justify-content: center;
-    align-items: center;
+    /* align-items: center; */
 }
 .Prp-Login-Page-Left-container{
     display: flex;
     flex-direction: column;
     justify-content: space-between;
-    height: 100%;
     gap: 10px;
 }
 .Prp-Login-Page-Left{
     display: flex;
     flex-direction: column;
-    justify-content: space-between;
     gap: 20px;
     max-width: 950px;
 }
@@ -175,7 +173,7 @@
 .Prp-Login-Page-Right{
     display: flex;
     flex-direction: column;
-    /* justify-content: center; */
+    justify-content: center;
     /* background-color: #566B94; */
     align-items: center;
     max-width: 646px;
@@ -543,7 +541,7 @@ flex-grow: 1;
     .Prp-Login-Illustration-img { max-width: 520px;max-height: 400px;}
     /* .Prp-Login-Page-Right { width: 500px; } */
     .Prp-Product-cards-container{width: 200px;}
-    .Prp-Login-Page-Left-container{height: 95vh;}
+    .Prp-Login-Page-Left-container{height: 90vh;}
     .Prp-Login-pwd-eye-icon{width: 18px;height: 14px;}
     .Prp-PasswordReset-Link-Img {
     max-width: 60px;
@@ -578,8 +576,8 @@ flex-grow: 1;
 
 @media screen and (max-width: 1365px) {
     .PRP-Login-Page-Container { gap: 40px; padding: 20px; justify-content: space-around ; }
-    .Prp-Login-Page-Left { width: 500px; }
-    .Prp-Login-Page-Left-container{max-width: 500px};
+    .Prp-Login-Page-Left { width: 500px; height: 100%; }
+    .Prp-Login-Page-Left-container{max-width: 500px;};
     
     /* Fonts */
     .Prp-Product-Header-Container { gap: 8px; }

@@ -1,3 +1,7 @@
+*{
+    margin: 0;
+    padding: 0;
+}
 .Prp-Landing-Header{
     display: flex;
     justify-content: space-between;
@@ -5,6 +9,7 @@
     padding: 25px;
     align-items: center;
     border-bottom: 1px solid #555;
+    width: 100%;
 }
 .Prp-Landing-Button{
     display: flex;
@@ -21,7 +26,25 @@
     font-weight: 600;
     letter-spacing: 1px;
 }
-
+.Prp-Header-Navbar{
+    flex: 1;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+    cursor: pointer;
+}
+.Prp-Header-Nav-Items{
+    display: flex;
+    justify-items: center;
+    font-size: 16px;
+    font-weight: 800;
+    color: #132A56;
+    padding: 5px 0px;
+}
+.Prp-Nav-Active{
+    border-bottom: 2px solid #132A56;
+}
 .Prp-Landingpage-Login-Button{
     padding: 10px 15px ;
     border-radius: 6px;
@@ -36,4 +59,34 @@
     font-size: 24px;
     font-weight: 800;
     color: #004;
+    width: 300px;
+    letter-spacing: -1.4px;
+}
+
+@media screen and (max-width: 1599px){
+    .Prp-Landing-Header{
+        gap: 50px;
+    }
+    .Prp-Header-Navbar{
+        gap: 25px;
+    }
+    .Prp-Header-Logo{
+        font-size: 20px;
+    }
+    .Prp-Header-Nav-Items{
+        font-size: 13px;
+    }
+
+}
+@media screen and (max-width: 1365px){
+    
+}
+@media screen and (max-width: 1024px){
+    
+}
+@media screen and (max-width: 1599px){
+    
+}
+@media screen and (max-width: 1599px){
+    
 }

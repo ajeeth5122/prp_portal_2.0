@@ -1,14 +1,283 @@
-.Landing-container{
+.Prp-LandingPage-container{
     display: flex;
     flex-direction: column;
-    margin:0 auto;
     background: linear-gradient(to right, #566B94 10%, #FFFFFF 93%);
     box-sizing: border-box;
-    align-items: center;
-    justify-content: center;
-    min-height:88vh;   
+    gap: 50px;
+    padding: 50px 0;
 }
 
-.Landing-container h1{
-    color: #004;
+.Prp-LandingPage-Hero-container{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    padding: 0 50px;
+}
+.Prp-LandingPage-Hero-Title-Sec{
+    display: flex;
+    flex-direction: column;
+    gap: 50px;
+    /* padding: 50px; */
+    color: #132A56;
+}
+.Prp-LandingPage-Hero-Title-Head{
+    font-size: 26px;
+    margin: 0;
+}
+.Prp-LandingPage-Hero-Title{
+    font-size: 40px;
+    max-width: 365px;
+    width: 100%;
+    font-weight: 600;
+}
+.Prp-LandingPage-Hero-Desc{
+    max-width: 707px;
+    font-size: 26px;
+    margin: 0;
+    color: #333343;
+    font-weight: 600;
+}
+.Prp-LandingPage-Hero-Sec-Buttons{
+    display: flex;
+    gap: 30px;
+}
+.Prp-LandingPage-Btn{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px 20px;
+    border-radius: 8px;
+}
+.Explore{
+    background-color: #132A56;
+    color: #FFFFFF;
+}
+.GetStarted{
+    color: #132A56;
+    background-color: #FFFFFF;
+}
+
+.Prp-Hero-Sec-Illustration{
+    max-width: 900px;
+}
+.Prp-LandingPage-Cards-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background: #132A5633;
+    gap: 40px;
+    padding: 50px 0;
+}
+
+.Prp-LandingPage-Cards-Feature{
+    font-size: 26px;
+    font-weight: 600;
+    color: #333334;
+}
+.Prp-LandingPage-Cards-Header{
+    color: #132A56;
+    font-size: 32px;
+    font-weight: 600;
+}
+.Prp-LandingPage-Cards-Section{
+    display: flex;
+    justify-content: space-evenly;
+    padding: 20px 0;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.Prp-LandingPage-Card{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 30px;
+    background-color: #FFFFFF;
+    padding: 30px 10px;
+    border-radius: 20px;
+    box-shadow: 1px -1px 7px 1px #00000040;
+    border: 1px solid #176789;
+    width: 330px;
+}
+.Prp-LandingPage-Card-Logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #CDDDFC;
+    padding: 25px;
+    border-radius: 50%;
+}
+.Prp-LandingPage-Card-Logo img{
+    width: 30px;
+    height: 30px;
+}
+.Prp-LandingPage-Card-Title{
+    font-size: 26px;
+    color: #132A56;
+    font-weight: 400;
+}
+.Prp-LandingPage-Card-Desc{
+    max-width: 220px;
+    font-size: 22px;
+    color: #333334;
+    text-align: center;
+}
+.Prp-LandingPage-Review-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+}
+.Prp-LandingPage-ReviewCards-Section{
+    display: flex;
+    justify-content: space-around;
+    width: 100%;
+    flex-wrap: wrap;
+}
+.Prp-LandingPage-ReviewCard{
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+    background-color: #132A56;
+    padding: 40px;
+    border-radius: 25px;
+}
+
+.Prp-LandingPage-RC-Logo-sec{
+    display: flex;
+    gap: 15px;
+    align-items: center;
+}
+.Prp-LandingPage-ReviewCard-Logo{
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    border: 2px solid #C4C7CC;
+    border-radius: 10px;
+}
+.Prp-LandingPage-ReviewCard-Logo img{
+    width: 60px;
+    height: 60px;
+}
+.Prp-LandingPage-Review-User{
+    display: flex;
+    flex-direction: column;
+}
+.Prp-LandingPage-Review-Username{
+    font-size: 20px;
+    font-weight: 600;
+    color: #C4C7CC;
+}
+.Prp-LandingPage-Review-UserProf{
+    color: #4D5A81;
+    font-size: 12px;
+    letter-spacing: 0.6px;
+}
+.Prp-LandingPage-Review{
+    max-width: 420px;
+    width: 100%;
+    font-size: 18px;
+    font-style: italic;
+    color: #4D5A81;
+    letter-spacing: 0;
+}
+.Prp-LandingPage-Rating-Image img{
+    max-width: 20px;
+}
+.Prp-LandingPage-Partner-Title{
+    font-size: 26px;
+    color: #333334;
+    letter-spacing: 2.4px;
+}
+.Prp-LandingPage-Partner-Solgan{
+    font-size: 32px;
+    color: #132A56;
+}
+.Prp-LandingPage-Partner-Logos-sec{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    width: 100%;
+}
+.Prp-LandingPage-Partner-Container{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 40px;
+    background: #132A5699;
+    padding: 50px 0;
+}
+.Prp-LandingPage-Partner-Logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    max-width: 200px;
+    width: 100%;
+    padding: 20px;
+    
+}
+.Prp-LandingPage-Partner-Logo img{
+    max-width: 120px;
+    width: 100%;
+}
+
+@media screen and (max-width: 1599px){
+   .Prp-LandingPage-Hero-Title-Sec{gap: 10px;}
+   .Prp-LandingPage-Hero-Title-Head{font-size: 22px;}
+   .Prp-LandingPage-Hero-Title{width: 350px;font-size: 40px;}
+   .Prp-LandingPage-Hero-Desc{font-size: 24px;font-weight: 600;}
+   .Prp-Hero-Sec-Illustration{max-width: 650px;}
+   .Prp-LandingPage-container{padding: 50px 0;}
+   .Prp-LandingPage-Btn{padding: 8px 15px;margin-top: 20px;}
+   .Prp-LandingPage-Cards-Feature{font-size: 22px;}
+   .Prp-LandingPage-Cards-Header{font-size: 28px;}
+   .Prp-LandingPage-Cards-Container{gap: 25px; padding: 50px 0; width: 100%;}
+   .Prp-LandingPage-Card{ gap: 25px;width: 240px;}
+   .Prp-LandingPage-Card-Title{font-size: 18px;}
+   .Prp-LandingPage-Card-Desc{font-size: 16px;width: 180px;}
+   .Prp-LandingPage-Card-Logo img{width: 25px;height: 25px;}
+   .Prp-LandingPage-Card-Logo{padding: 17px;}
+   .Prp-LandingPage-ReviewCard-Logo img{width: 30px ; height: 30px;}
+   .Prp-LandingPage-Review-Username{font-size: 16px;}
+   .Prp-LandingPage-Rating-Image img{width: 15px;}
+   .Prp-LandingPage-Review{font-size: 16px; width: 323px;}
+   .Prp-LandingPage-ReviewCard {padding: 30px;margin-top: 25px;gap: 10px;}
+   .Prp-LandingPage-Partner-Logo img{max-width: 100px; width: 100%;}
+   .Prp-LandingPage-Partner-Logo{justify-content: space-around;}
+   .Prp-LandingPage-Partner-Title{font-size:22px;}
+   .Prp-LandingPage-Partner-Solgan{font-size: 24px;}
+   .Prp-LandingPage-Partner-Container{gap: 25px; padding: 50px 0; width: 100%;}
+}
+@media screen and (max-width: 1365px){
+    .Prp-LandingPage-Hero-container {padding: 0 20px;}
+    .Prp-LandingPage-Hero-Title-Sec {padding: 20px;}
+    .Prp-LandingPage-Hero-Title {max-width: 100%;width: auto;}
+    .Prp-LandingPage-Hero-Desc {max-width: 100%;font-size: 20px;}
+    .Prp-Hero-Sec-Illustration {max-width: 480px;height: 350px;}
+}
+
+@media screen and (max-width: 1024px){
+    .Prp-LandingPage-Hero-container {gap: 30px;}
+    .Prp-LandingPage-Hero-Title-Sec {padding: 10px;gap: 20px;}
+    .prp-LandingPage-Hero-Desc {text-align: center;}
+    .Prp-LandingPage-Cards-Section {padding: 0 20px;gap: 30px;}
+    .Prp-LandingPage-Card {width: 180px;}
+    .Prp-LandingPage-Card-Title{font-size: 14px;}
+    .Prp-LandingPage-Card-Desc{font-size: 13px;}
+}
+
+@media screen and (max-width: 768px){
+    .Prp-LandingPage-Hero-Title {font-size: 30px;}
+    .Prp-LandingPage-Hero-Desc {font-size: 18px;}
+    .Prp-LandingPage-Cards-Section {flex-direction: column;align-items: center;}
+    .Prp-LandingPage-Card {width: 85%; max-width: 350px;}
+    .Prp-LandingPage-Card-Desc {max-width: 100%;width: auto;}
+}
+
+@media screen and (max-width: 480px){
+    .Prp-LandingPage-Hero-Title {font-size: 24px;}
+    .Prp-LandingPage-Hero-Desc {font-size: 16px;}
+    .Prp-LandingPage-Hero-Sec-Buttons {flex-direction: column;width: 100%;gap: 15px;}
+    .Prp-LandingPage-Btn {width: 100%;}
+    .Prp-LandingPage-Card {width: 90%;}
+    .Prp-LandingPage-Cards-Header {font-size: 24px;}
 }
