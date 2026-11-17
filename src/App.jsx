@@ -50,7 +50,7 @@ const router = createBrowserRouter([
   
 ],
   {
-    basename: "/prp",
+    basename: "/prp_portal_2.0",
   }
 )
 
