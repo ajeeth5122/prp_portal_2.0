@@ -1,0 +1,77 @@
+.Prp-Modal-Overlay {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100vw;
+  height: 100vh;
+  background-color: rgba(0, 0, 0, 0.5);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  backdrop-filter: blur(5px);
+  z-index: 1000;
+}
+
+.Prp-Modal-Container {
+  background: #ffffff;
+  padding: 40px 30px;
+  border-radius: 16px;
+  text-align: center;
+  width: 400px;
+  box-shadow: 0px 8px 24px rgba(0, 0, 0, 0.15);
+}
+
+.Prp-Modal-Icon-Cont {
+  margin-bottom: 20px;
+}
+
+.Prp-Modal-Title {
+  font-size: 22px;
+  font-weight: 700;
+  color: #132A56;
+  margin-bottom: 8px;
+}
+
+.Prp-Modal-Subtitle {
+  font-size: 18px;
+  font-weight: 500;
+  color: #132A56;
+  margin-bottom: 30px;
+}
+
+.Prp-Modal-Action-Buttons {
+  display: flex;
+  justify-content: space-between;
+  gap: 15px;
+}
+
+.Prp-Modal-Cancel-Btn,
+.Prp-Modal-Confirm-Btn {
+  flex: 1;
+  padding: 12px;
+  border-radius: 8px;
+  font-size: 15px;
+  font-weight: 600;
+  cursor: pointer;
+  transition: all 0.2s ease;
+}
+
+.Prp-Modal-Cancel-Btn {
+  background: #ffffff;
+  border: 1px solid #d1d5db;
+  color: #374151;
+}
+
+.Prp-Modal-Cancel-Btn:hover {
+  background: #f9fafb;
+}
+
+.Prp-Modal-Confirm-Btn {
+  background: #132A56; 
+  border: none;
+  color: #ffffff;
+}
+
+.Prp-Modal-Confirm-Btn:hover {
+  background: #0f172a;
+}

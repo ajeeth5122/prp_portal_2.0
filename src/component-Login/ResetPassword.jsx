@@ -80,6 +80,7 @@ const ResetPasswordPage = () => {
       return;
     }
     console.log("Password reset successfully");
+    navigate('/ResetPassword/Successful')
   };
 
   return (
@@ -188,7 +189,7 @@ const ResetPasswordPage = () => {
             <input type="checkbox" />
             <p className='Prp-Login-Checkbox-Text'>Keep me signed in</p>
           </div>
-          <button onClick={() => navigate('/ResetPassword/Successful')} type="submit" className='Prp-Login-Button'>
+          <button type="submit" className='Prp-Login-Button'>
             <p>Reset Password</p>
             <img className='Prp-Login-Button-Icon' src={SignInArrow} alt="" />
 

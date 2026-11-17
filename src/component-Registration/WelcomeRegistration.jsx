@@ -76,6 +76,9 @@ const WelcomeRegistration = () => {
                     </section>
                     <section className="Prp-registration-Page-Right">
                         <div className="Prp-Login-Page-form">
+                            <div onClick={()=>navigate('/')} className="Prp-Reg-Back-Btn">
+                                <p>Home</p>
+                            </div>
                             <div className="prp-WelcomeRegistration-Form-Header">
                                 <h2>Your Journey Starts Here</h2>
                                 <p>Select your account type below to begin your tailored registration</p>

@@ -1,0 +1,954 @@
+.Prp-Candidate-Dashboard-Container{
+    display: flex;
+    /* margin-top: 25px; */
+    padding: 10px 20px;
+    justify-content: center;
+    gap: 50px;
+}
+
+.Prp-Candidate-Dashboard-Sidebar{ 
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    max-width: 250px;
+    gap: 10px;
+    position: sticky;
+    top: 100px;
+    height: 100vh;
+}
+.Prp-Candidate-Dashboard-Sidebar-Navitem:Hover{
+  background-color: #DCE6F7;
+  transform: rotateY(360deg);
+}
+.Prp-Candidate-Dashboard-Sidebar-Navitem-Active{
+  background-color: #244A82;
+  border: 0.5px solid #fffff9;
+  padding: 10px;
+  width: 100%;
+  border-radius: 10px;
+  color: #ffffff;
+}
+
+
+.Prp-Candidate-Dashboard-Mainsec{
+    display: flex;
+    flex-direction: column;
+    max-width: 1450px;
+    width: 100%;
+    gap: 20px;
+    margin-bottom: 50px;
+}
+.Prp-Candidate-wave-icon{width: 50px;display: inline-block;}
+.Prp-Candidate-wave-icon:hover {
+  animation: wave 1.2s ease-in-out infinite;
+}
+@keyframes wave {
+  0%, 100% { transform: translateX(0); }
+  25% { transform: rotate(-30deg); }
+  75% { transform: translateX(30deg); }
+}
+.Prp-Candidate-Dashboard-Sidebar-Navitem{
+    padding: 10px 10px;
+    border: 1px solid #132A56;
+    background-color: #ffffff;
+    width: 100%;
+    border-radius: 10px;
+}
+.Prp-Candidate-Sidebar-Title{
+    padding-left:20px ;
+    font-size: 16px;
+}
+
+.Prp-Candidate-Welcome-Container{
+    display: flex;
+    /* max-width: 1450px; */
+    width: 100%;
+    background: #132A56;
+    padding: 20px 30px;
+    color: #ffffff;
+    gap: 50px;
+    justify-content: space-between;
+    border-radius: 15px;
+}
+
+.Prp-Candidate-Seperator{
+    min-width: 3px;
+    background-color: #000000;
+}
+
+.Prp-Candidate-Greetdesc-Wrapper{
+    display: flex;
+    flex-direction: column;
+    gap: 15px;
+    max-width: 570px;
+    width: 100%;
+}
+.Prp-Candidate-Greet-Container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 25px;
+    flex: 1;
+}
+.Prp-Candidate-Wave-Wrapper{
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+.Prp-Candidate-Greet-Text{
+    font-size: 30px;
+}
+.Prp-Candidate-desc-Text{
+    font-size: 20px;
+    /* padding-left: 5px; */
+}
+.Prp-Candidate-Profile-image{
+    display: flex;
+    max-width:150px ;
+    width: 100%;
+}
+.Prp-Candidate-Prof-Comp-Container{
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+    gap: 20px;
+    padding: 0 10px;
+}
+.Prp-Candidate-Prof-Comp-Bar-Wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    gap: 15px;
+}
+.Prp-Candidate-Prof-Comp-Bar{
+    width: 100%;
+    background-color: #817A7A;
+    border-radius: 15px;
+    
+}
+.Prp-Candidate-footer-icon{width: 50px;}
+.Prp-Candidate-Prof-Comp-Status{
+    background-color: #ffffff;
+    padding: 5px 0;
+    width: 78%;
+    border-radius: 15px;
+}
+
+.Prp-Candidate-Prof-Footer{
+    display: flex;
+    align-items: center;
+    font-size: 20px;
+    gap: 30px;
+}
+.Prp-Candidate-Prof-Comp-Text{
+    font-size: 30px;
+}
+.Prp-Candidate-Prof-Comp-Count{
+    font-size: 26px;
+}
+.Prp-Candidate-Prof-Footer-Text{
+    font-size: 24px;
+}
+
+.Prp-Candidate-Dashboard-Cards-Container {
+  display: flex;
+  width: 100%;
+  gap: 25px;
+  align-items: center;
+  padding: 25px 40px;
+  border: 1px solid #397da5;
+  border-radius: 12px;
+  background: linear-gradient(110deg, #687e9f 0%, #c4c9d1 100%);
+}
+
+/* .Prp-Candidate-Dashboard-Cards {
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+  gap: 25px;
+} */
+.Prp-Course-App-Wrapper{
+  display: flex;
+  gap: 20px;
+}
+.Prp-Candidate-Dashboard-Card {
+  display: flex;
+  max-width: 320px;
+  width: 100%;
+  flex-direction: column;
+  padding: 20px;
+  border: 1px solid #4785a9;
+  border-radius: 13px;
+  background: #fff;
+  gap: 15px;
+}
+
+.Prp-Candidate-Dashboard-Count-wrapper{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.Prp-Candidate-Dashboard-Card-Logo{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 10px;
+    background-color: #CEE0FD;
+    width: 50px;
+    height: 50px;
+    border-radius: 8px;
+}
+.Prp-Candidate-Dashboard-Card-Logo img{
+    width: 30px;
+    
+}
+.Prp-Candidate-Dashboard-Card-Title{
+    font-size: 20px;
+    font-weight: 400;
+}
+.Prp-Candidate-Dashboard-Card-Count{
+    font-size: 32px;
+    font-weight: 600;
+}
+.Prp-Candidate-Dashboard-Stat-Count{
+    font-size: 24px;
+    color: #109D58;
+}
+.Prp-Ai-Recommended-Jobs-Container {
+  display: flex;
+  flex-direction: column;
+  width: 100%;
+  gap: 20px;
+  padding: 20px 40px;
+  background: linear-gradient(90deg, #697a9b 0%, #c3c9d5 50%, #d0d4dd 100%);
+  border: 1px solid #176789;
+  border-radius: 12px;
+}
+
+.Prp-Ai-Recommended-Jobs-Header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.Prp-Ai-Recommended-Jobs-Heading {
+  display: flex;
+  align-items: center;
+  gap: 28px;
+}
+
+.Prp-Ai-Recommended-Jobs-Sparkle {
+  width: 40px;
+}
+
+.Prp-Ai-Recommended-Jobs-Title {
+  margin: 0;
+  font-size: 32px;
+  font-weight: 600;
+  color: #192F5A;
+}
+
+.Prp-Ai-Recommended-Jobs-View-All {
+  display: flex;
+  align-items: center;
+  gap: 8px;
+  padding: 0;
+  border: none;
+  background: none;
+  font-family: inherit;
+  font-size: 20px;
+  color: #132a56;
+  cursor: pointer;
+}
+
+.Prp-Ai-Recommended-Jobs-Arrow {
+  width: 18px;
+}
+
+.Prp-Ai-Recommended-Jobs-Subtitle {
+  max-width: 880px;
+  font-size: 16px;
+  line-height: 1.5;
+  color: #41547B;
+}
+
+.Prp-Ai-Recommended-Jobs-List {
+  display: flex;
+  flex-direction: column;
+  gap: 25px;
+  padding: 0 40px;
+}
+
+.Prp-Ai-Recommended-Jobs-Card {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  gap: 15px;
+  background: #132a56;
+  border: 1px solid #176789;
+  padding: 25px;
+  border-radius: 14px;
+}
+
+.Prp-Ai-Recommended-Jobs-Initial {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 80px;
+  height: 80px;
+  background: #426dc0;
+  border-radius: 14px;
+  font-size: 28px;
+  color: #ffffff;
+}
+
+.Prp-Ai-Recommended-Jobs-Details {
+  display: flex;
+  flex-direction: column;
+  gap: 14px;
+  max-width: 250px;
+  width: 100%;
+}
+
+.Prp-Ai-Recommended-Jobs-Job-Title {
+  margin: 0;
+  font-size: 18px;
+  font-weight: 400;
+  color: #ffffff;
+}
+
+.Prp-Ai-Recommended-Jobs-Company {
+  margin: 0;
+  font-size: 18px;
+  color: #b8bfcc;
+}
+
+.Prp-Ai-Recommended-Jobs-Location-Row {
+  display: flex;
+  align-items: center;
+  gap: 15px;
+  font-size: 18px;
+  color: #b8bfcc;
+}
+
+.Prp-Ai-Recommended-Jobs-Pin {
+  width: 16px;
+}
+
+.Prp-Ai-Recommended-Jobs-Stat {
+  display: flex;
+  flex-direction: column;
+  gap: 24px;
+}
+
+.Prp-Ai-Recommended-Jobs-Badge {
+  padding: 8px 12px;
+  background: #d8d7ef;
+  border-radius: 8px;
+  font-size: 18px;
+  text-align: center;
+  color: #132a56;
+}
+
+.Prp-Ai-Recommended-Jobs-Stat-Label {
+  font-size: 18px;
+  color: #b8bfcc;
+}
+
+.Prp-Ai-Recommended-Jobs-View-Job {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10px;
+  padding: 12px 15px;
+  background: #ffffff;
+  border: 1px solid #176789;
+  border-radius: 14px;
+  font-size: 18px;
+  color: #132a56;
+  cursor: pointer;
+}
+.Prp-Ai-Recommended-Jobs-Font{
+  display: flex;
+  justify-content: center;
+  font-size: 40px;
+}
+.Aecd-Dashboard {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    align-items: flex-start;
+    gap: 30px;
+    padding: 0 20px;
+}
+
+.Aecd-Dashboard > .Aecd-Sidebar {
+    flex: 0 0 250px;
+}
+
+.Interview-Schedule-Container {
+  display: flex;
+  flex-direction: column;
+    width: 100%;
+    padding: 20px;
+    box-sizing: border-box;
+    background: rgba(19, 42, 86, 0.30);
+    border: 1px solid #176789;
+    border-radius: 20px;
+    color: #17315e;
+}
+
+.Interview-Schedule-Header {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+    height: 40px;
+    /* margin-left: 25px; */
+    margin-bottom: 20px;
+}
+
+.Interview-Schedule-Header h2 {
+    margin: 0;
+    font-size: 22px;
+    font-weight: 600;
+    color: #17315e;
+}
+
+.Interview-Schedule-Calendar-Image {
+    width: 20px;
+    height: 20px;
+    object-fit: contain;
+    display: block;
+}
+
+.Interview-Schedule-Content {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    align-items: start;
+    gap: 30px;
+    width: 100%;
+    min-width: 0;
+}
+
+.Interview-Schedule-Details {
+    width: 100%;
+    min-width: 0;
+    padding-top: 0;
+}
+
+.Interview-Schedule-List-Button {
+    width: 83px;
+    height: 34px;
+    border: 1px solid #17315e;
+    border-radius: 25px;
+    background: #ffffff;
+    color: #17315e;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+    transition: background 0.2s ease;
+}
+
+.Interview-Schedule-List-Button:hover {
+    background: #e4edff;
+}
+
+.Interview-Schedule-List-Active {
+    background: #e4edff;
+}
+
+.Interview-Schedule-Details h3 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #111111;
+    margin: 32px 0 30px 8px;
+}
+
+.Interview-Schedule-Interview-List {
+    display: flex;
+    flex-direction: column;
+    gap: 24px;
+    width: 100%;
+    min-width: 0;
+}
+
+.Interview-Schedule-Interview-Card {
+    width: 100%;
+    min-width: 0;
+    height: auto;
+    min-height: 73px;
+    box-sizing: border-box;
+    padding: 10px 15px 10px 24px;
+    border: 1px solid #176789;
+    border-radius: 17px;
+    background: #ffffff;
+    display: grid;
+    grid-template-columns: 90px minmax(0, 1fr) 165px;
+    align-items: center;
+    gap: 12px;
+}
+
+.Interview-Schedule-Time {
+    font-size: 16px;
+    font-weight: 400;
+    color: #17315e;
+    white-space: nowrap;
+}
+
+.Interview-Schedule-Interview-Info {
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+    /* text-align: center; */
+    /* min-width: 0; */
+}
+
+.Interview-Schedule-Interview-Info h4 {
+    font-size: 16px;
+    font-weight: 400;
+    color: #17315e;
+    margin: 0 0 6px;
+    white-space: normal;
+}
+
+.Interview-Schedule-Interview-Info p {
+    font-size: 16px;
+    font-weight: 400;
+    line-height: 1.3;
+    color: #687d9e;
+    margin: 0;
+}
+
+.Interview-Schedule-View-Button{
+  display: flex;
+  padding: 7px 12px;
+  align-items: center;
+  width: fit-content;
+  background: #d3e0f7;
+    color: #3980ff;
+    font-size: 14px;
+    font-weight: 400;
+     transition: background 0.2s ease;
+     outline: none;
+     border: 1px solid #176789;
+     border-radius: 8px;
+     cursor: pointer;
+     gap: 7px;
+}
+
+.Interview-Schedule-View-Button:hover {
+    background: #cbdcff;
+}
+
+.Interview-Schedule-Arrow-Image {
+    width: 12px;
+    object-fit: contain;
+    display: block;
+}
+
+.Interview-Schedule-Empty {
+    width: 100%;
+    box-sizing: border-box;
+    padding: 25px;
+    background: #ffffff;
+    border: 1px solid #4388a9;
+    border-radius: 15px;
+    color: #687d9e;
+    font-size: 16px;
+    text-align: center;
+}
+
+.Interview-Schedule-Modal-Overlay {
+    position: fixed;
+    inset: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.45);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    z-index: 1000;
+}
+
+.Interview-Schedule-Modal {
+    width: 450px;
+    max-width: calc(100% - 40px);
+    box-sizing: border-box;
+    padding: 35px;
+    border-radius: 18px;
+    background: #ffffff;
+    color: #17315e;
+    position: relative;
+    box-shadow: 0 8px 30px rgba(0, 0, 0, 0.15);
+}
+
+.Interview-Schedule-Modal h2 {
+    font-size: 22px;
+    font-weight: 600;
+    margin: 0 0 25px;
+}
+
+.Interview-Schedule-Modal p {
+    font-size: 16px;
+    margin: 15px 0;
+}
+
+.Interview-Schedule-Modal-Close {
+    position: absolute;
+    top: 12px;
+    right: 18px;
+    border: none;
+    background: transparent;
+    color: #17315e;
+    font-size: 28px;
+    cursor: pointer;
+}
+
+.Prp-Cont-Learn-Container{
+  display: flex;
+  flex-direction: column;
+  max-width: 550px;
+  border: 1px solid #176789;
+  border-radius: 15px;
+  padding: 10px 25px;
+  background: #FFFFFF4D;
+  gap: 25px;
+}
+.Prp-Cont-Learn-header{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 5px 0;
+}
+.Prp-Cont-Learn-header-Wrapper{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+}
+.Prp-Cont-Learn-Header-Title{
+  font-size: 22px;
+  font-weight: 600;
+  color: #132A56;
+}
+.Prp-Cont-Learn-Logo{
+  width: 24px;
+}
+.Prp-Cont-Learn-CourseLogo-Container{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 10px;
+  background-color: #132A56;
+  width: fit-content;
+  border-radius: 8px;
+}
+
+.Prp-Cont-Learn-CourseLogo{
+  width: 40px;
+}
+.Prp-Cont-Learn-Course-List{
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  
+}
+.Prp-Cont-Learn-Course-Details{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* gap: 5px; */
+  width: 100%;
+
+}
+.Prp-Cont-Learn-Statusbar{
+  width: 75%;
+  background-color: #109D58;
+  border-radius: 8px;
+}
+.Prp-Cont-Learn-Course-title{
+  color: #132A56;
+  font-size: 18px;
+}
+.Prp-Cont-Learn-Statusbar-Cont{
+  display: flex;
+  width: 100%;
+  background-color: #ffffff;
+  height: 7px;
+  border-radius: 8px;
+}
+.Prp-Cont-Learn-Statusbar-wrapper{
+  display: flex;
+  justify-content: space-between;
+  gap: 20px;
+  align-items: center;
+}
+.Prp-Cont-Learn-Course-Type{
+  color: #132A56B2;
+  font-size: 16px;
+}
+.Prp-Cont-Learn-Course-Count{
+  color: #132A56;
+  font-size: 16px;
+}
+.Prp-Cont-Learn-Header-Viewall{
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  gap: 10px;
+}
+.Prp-Cont-Learn-viewall-Arrow{
+  width: 16px;
+}
+.Prp-Cont-Learn-viewall-Title{
+  font-size: 16px;
+  color: #3B82F6;
+}
+.Prp-Candidate-Whatsnxt-Container{
+  display: flex;
+  flex-direction: column;
+  gap: 10px;
+  width: 100%;
+  background-color: #132A5633;
+  padding: 30px 20px;
+  border-radius: 20px;
+  border: 1px solid #176789;
+}
+.Prp-Candidate-Whatsnxt-Header{
+  display: flex;
+  gap: 20px;
+  align-items: center;
+}
+
+.Prp-Candidate-Whatsnxt-Logo{
+  width: 50px;
+}
+.Prp-Candidate-Whatsnxt-Title-Wrapper{
+  display: flex;
+  flex-direction: column;
+  /* gap: 5px; */
+}
+.Prp-Candidate-Whatsnxt-Header-Title{
+  font-size: 22px;
+  color: #132A56;
+}
+.Prp-Candidate-Whatsnxt-Desc{
+  font-size: 16px;
+  color: #132A56B2;
+}
+.Prp-Candidate-Whatsnxt-cards-Container{
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  border-radius: 15px;
+  justify-content: space-between;
+  padding: 30px 20px;
+}
+.Prp-Candidate-Whatsnxt-card-Logo-Cont{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #CDDDFC;
+  /* width: 50px; */
+  /* height: 50px; */
+  width: fit-content;
+  border-radius: 15px;
+  padding: 10px;
+}
+.Prp-Candidate-Whatsnxt-card{
+  display: flex;
+  align-items: center;
+  max-width: 300px;
+  width: 100%;
+  background-color: #ffffff;
+  max-height: 120px;
+  height: 200px;
+  padding: 0px 10px;
+  gap: 10px;
+  border-radius: 15px;
+  justify-content: space-around;
+}
+.Prp-Candidate-Whatsnxt-card-Logo{
+  width: 30px;
+}
+.Prp-Candidate-Whatsnxt-Title-Wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 5px;
+}
+.Prp-Candidate-Whatsnxt-Title{
+  font-size: 14px;
+  color: #132A56;
+  font-weight: 400;
+}
+.Prp-Candidate-Whatsnxt-Desc{
+  font-size: 12px;
+  color: #132A56B2;
+}
+.Prp-Candidate-Whatsnxt-Arrow{
+  width: 7px;
+}
+
+@media screen and (max-width: 1599px){
+.Prp-Candidate-Prof-Comp-Container{gap: 15px;}
+.Prp-Candidate-Prof-Footer{gap: 15px;}
+/* .Prp-Candidate-Greetdesc-Wrapper{gap: 10px;} */
+.Prp-Candidate-Welcome-Container{gap: 20px;}
+.Prp-Candidate-Profile-image{max-width: 120px;}
+.Prp-Candidate-Wave-Wrapper{gap: 20px;}
+.Prp-Candidate-Greet-Text{font-size: 24px;}
+.Prp-Candidate-desc-Text{font-size: 16px;}
+.Prp-Candidate-Prof-Comp-Text{font-size: 24px;}
+.Prp-Candidate-Prof-Comp-Count{font-size: 28px;}
+.Prp-Candidate-Prof-Footer-Text{font-size: 18px;}
+.Prp-Candidate-footer-icon{width: 30px;}
+/* .Prp-Candidate-Greet-Container{gap: 15px;} */
+.Prp-Candidate-wave-icon{width: 30px;}
+.Prp-Candidate-Dashboard-Stat-Count{ font-size: 16px;}
+.Prp-Candidate-Dashboard-Card-Count{font-size: 22px;}
+.Prp-Candidate-Dashboard-Card-Title{font-size: 16px;}
+.Prp-Candidate-Dashboard-Card-Logo img{width: 25px;}
+.Prp-Candidate-Dashboard-Card-Logo{width: 40px; height: 40px;}
+.Prp-Candidate-Dashboard-Card {gap: 7px; width: 250px;padding: 20px;}
+.Prp-Candidate-Seperator{min-width: 1.5px;}
+.Prp-Ai-Recommended-Jobs-Title {font-size: 24px;}
+.Prp-Ai-Recommended-Jobs-List {gap: 20px; padding: 0;}
+.Prp-Ai-Recommended-Jobs-Details {gap:10px;}
+.Prp-Ai-Recommended-Jobs-View-Job {padding: 6px 10px; border-radius: 8px; font-size: 16px;}
+.Prp-Ai-Recommended-Jobs-Img{width: 80px; padding: 10px;}
+.Prp-Ai-Recommended-Jobs-Stat{gap: 10px;}
+.Prp-Ai-Recommended-Jobs-Stat-Label{font-size: 14px; text-align: center;}
+.Prp-Ai-Recommended-Jobs-Badge{font-size: 16px; padding: 6px 10px;}
+.Prp-Ai-Recommended-Jobs-Location-Row{gap: 5px;}
+.Prp-Ai-Recommended-Jobs-View-All{font-size: 18px;}
+.Prp-Ai-Recommended-Jobs-Arrow {width: 12px;}
+.Prp-Ai-Recommended-Jobs-Font{font-size: 24px;}
+
+}
+/* 1300px screens (Laptops / Small Desktop) */
+@media screen and (max-width: 1300px) {
+  .Prp-Candidate-Prof-Comp-Container { gap: 12px; }
+  .Prp-Candidate-Prof-Footer { gap: 12px; }
+  .Prp-Candidate-Welcome-Container { gap: 16px; }
+  .Prp-Candidate-Profile-image { max-width: 100px; }
+  .Prp-Candidate-Wave-Wrapper { gap: 16px; }
+  .Prp-Candidate-Greet-Text { font-size: 22px; }
+  .Prp-Candidate-desc-Text { font-size: 15px; }
+  .Prp-Candidate-Prof-Comp-Text { font-size: 22px; }
+  .Prp-Candidate-Prof-Comp-Count { font-size: 25px; }
+  .Prp-Candidate-Prof-Footer-Text { font-size: 16px; }
+  .Prp-Candidate-footer-icon { width: 26px; }
+  .Prp-Candidate-wave-icon { width: 26px; }
+  .Prp-Candidate-Dashboard-Stat-Count { font-size: 15px; }
+  .Prp-Candidate-Dashboard-Card-Count { font-size: 20px; }
+  .Prp-Candidate-Dashboard-Card-Title { font-size: 15px; }
+  .Prp-Candidate-Dashboard-Card-Logo img { width: 22px; }
+  .Prp-Candidate-Dashboard-Card-Logo { width: 36px; height: 36px; }
+  .Prp-Candidate-Dashboard-Card { gap: 6px; width: 220px; padding: 16px; }
+  .Prp-Candidate-Seperator { min-width: 1px; }
+  .Prp-Ai-Recommended-Jobs-Details {gap: 5px;}
+  .Prp-Ai-Recommended-Jobs-Title {font-size: 24px;}
+  .Prp-Candidate-Dashboard-Cards-Container{gap: 15px; padding: 25px 20px;}
+  .Prp-Candidate-Dashboard-Container {gap: 25px;}
+  .Prp-Candidate-Sidebar-Title {font-size: 12px; padding-left: 7px;}
+.Prp-Ai-Recommended-Jobs-List {gap: 15px; padding: 0;}
+.Prp-Ai-Recommended-Jobs-Details {gap:5px;}
+.Prp-Ai-Recommended-Jobs-View-Job {padding: 6px 10px; border-radius: 8px; font-size: 14px;}
+.Prp-Ai-Recommended-Jobs-Img{width: 80px; padding: 10px;}
+.Prp-Ai-Recommended-Jobs-Stat{gap: 10px;}
+.Prp-Ai-Recommended-Jobs-Stat-Label{font-size: 14px; text-align: center;}
+.Prp-Ai-Recommended-Jobs-Badge{font-size: 16px; padding: 6px 10px;}
+.Prp-Ai-Recommended-Jobs-Location-Row{gap: 5px;}
+.Prp-Ai-Recommended-Jobs-View-All{font-size: 18px;}
+.Prp-Ai-Recommended-Jobs-Arrow {width: 12px;}
+.Prp-Ai-Recommended-Jobs-Font{font-size: 24px;}
+.Prp-Candidate-Whatsnxt-card{max-height: 90px;}
+.Prp-Candidate-Whatsnxt-Title{font-size: 12px;}
+.Prp-Candidate-Whatsnxt-card-Logo{width: 20px;}
+.Prp-Candidate-Whatsnxt-Desc {font-size: 10px;}
+.Prp-Cont-Learn-CourseLogo {width: 30px;}
+.Prp-Cont-Learn-Course-title {font-size: 15px;}
+.Prp-Cont-Learn-Course-Type {font-size: 15px;}
+.Prp-Cont-Learn-Course-Count{font-size: 15px;}
+.Interview-Schedule-Interview-Info h4{font-size: 14px;}
+.Interview-Schedule-Interview-Info p {font-size: 14px;}
+.Interview-Schedule-Time {font-size: 14px;}
+
+.Aecd-Dashboard {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .Aecd-Dashboard > .Aecd-Sidebar {
+        flex: 0 0 auto;
+        width: 100%;
+    }
+
+    .Interview-Schedule-Container {
+        width: 100%;
+        max-width: none;
+        height: auto;
+        margin-top: 0;
+        padding: 30px;
+    }
+
+    .Interview-Schedule-Content {
+        gap: 25px;
+    }
+
+    .Interview-Schedule-Details {
+        width: 100%;
+    }
+
+    .Interview-Schedule-Interview-Card {
+        display: flex;
+        padding: 10px;
+        gap: 15px;
+    }
+
+    .Interview-Schedule-View-Button {
+        width: 100px;
+    }
+
+}
+
+@media screen and (max-width: 1024px) {
+  .Prp-Candidate-Sidebar-Title {font-size: 12px; padding: 0;}
+  .Prp-Candidate-Dashboard-Sidebar{max-width: 150px;}
+  .Prp-Candidate-Prof-Comp-Container { gap: 10px; }
+  .Prp-Candidate-Prof-Footer { gap: 10px; }
+  .Prp-Candidate-Welcome-Container { gap: 12px; }
+  .Prp-Candidate-Profile-image { max-width: 80px; }
+  .Prp-Candidate-Wave-Wrapper { gap: 12px; }
+  .Prp-Candidate-Greet-Text { font-size: 20px; }
+  .Prp-Candidate-desc-Text { font-size: 14px; }
+  .Prp-Candidate-Prof-Comp-Text { font-size: 13px; }
+  .Prp-Candidate-Prof-Comp-Count { font-size: 22px; }
+  .Prp-Candidate-Prof-Footer-Text { font-size: 15px; }
+  .Prp-Candidate-footer-icon { width: 24px; }
+  .Prp-Candidate-wave-icon { width: 24px; }
+  .Prp-Candidate-Dashboard-Stat-Count { font-size: 12px; }
+  .Prp-Candidate-Dashboard-Card-Count { font-size: 18px; }
+  .Prp-Candidate-Dashboard-Card-Title { font-size: 12px; }
+  .Prp-Candidate-Dashboard-Card-Logo img { width: 20px; }
+  .Prp-Candidate-Dashboard-Card-Logo { width: 32px; height: 32px; }
+  .Prp-Candidate-Dashboard-Card { gap: 5px; width: 100%; max-width: 200px; padding: 14px; }
+  .Prp-Candidate-Seperator { min-width: 1px; }
+  .Prp-Ai-Recommended-Jobs-Initial{width: 60px; height: 60px;}
+  .Prp-Ai-Recommended-Jobs-Details{gap: 5px;}
+  .Prp-Ai-Recommended-Jobs-Job-Title,.Prp-Ai-Recommended-Jobs-Company,.Prp-Ai-Recommended-Jobs-Location-Row{font-size: 14px;}
+  .Prp-Ai-Recommended-Jobs-Pin{width: 14px;}
+  .Prp-Ai-Recommended-Jobs-Sparkle{width: 30px;}
+  .Prp-Ai-Recommended-Jobs-Heading {gap: 10px;}
+  .Prp-Ai-Recommended-Jobs-Title {font-size: 20px;}
+  .Prp-Ai-Recommended-Jobs-Subtitle {font-size: 14px;}
+  .Prp-Cont-Learn-Logo{width: 18px;}
+  .Prp-Cont-Learn-Header-Title {font-size: 16px;}
+  .Prp-Cont-Learn-Course-title{font-size: 14px;}
+  .Prp-Cont-Learn-viewall-Arrow{font-size: 14px;}
+  .Prp-Cont-Learn-viewall-Title{font-size: 15px;}
+  .Prp-Cont-Learn-Course-Type{font-size: 14px;}
+  .Prp-Cont-Learn-CourseLogo {width: 30px;}
+  .Prp-Candidate-Whatsnxt-card-Logo{width: 20px;}
+  .Prp-Candidate-Whatsnxt-card-Logo-Cont{padding: 5px; border-radius: 5px;}
+  .Prp-Candidate-Whatsnxt-Title {font-size: 12px;}
+}

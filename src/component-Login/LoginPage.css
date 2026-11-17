@@ -175,7 +175,7 @@
     flex-direction: column;
     justify-content: center;
     /* background-color: #566B94; */
-    align-items: center;
+    /* align-items: center; */
     max-width: 646px;
     width: 100%;
 }
@@ -576,7 +576,7 @@ flex-grow: 1;
 
 @media screen and (max-width: 1365px) {
     .PRP-Login-Page-Container { gap: 40px; padding: 20px; justify-content: space-around ; }
-    .Prp-Login-Page-Left { width: 500px; height: 100%; }
+    .Prp-Login-Page-Left { width: 450px; height: 100%; }
     .Prp-Login-Page-Left-container{max-width: 500px;};
     
     /* Fonts */
@@ -587,8 +587,8 @@ flex-grow: 1;
     .Prp-Product-cards-wrapper { gap: 12px; }
     .Prp-Product-cards-container { padding: 8px 12px; gap: 2px; }
     .Prp-Product-cards-image-container { width: 38px; height: 38px; }
-    .Prp-Product-cards-count { font-size: 20px; }
-    .Prp-Product-cards-sub-title { font-size: 12px; max-width: 150px; }
+    .Prp-Product-cards-count { font-size: 18px; }
+    .Prp-Product-cards-sub-title { font-size: 10px; max-width: 150px; }
     .Prp-Login-Page-Form-Header { gap: 4px; }
     .Prp-Login-Input-Wrapper { gap: 8px; }
     .Prp-Login-Checkbox-Container { gap: 6px; }
@@ -602,8 +602,8 @@ flex-grow: 1;
     .Prp-Product-Title { font-size: 16px; }
     .Prp-Product-SubTitle { font-size: 10px; }
     .Prp-Product-HeroSec-welcome-Text { font-size: 20px; }
-    .Prp-Product-HeroSec-Text { font-size: 26px; line-height: 28px; }
-    .Prp-Product-HeroSec-sub-heading { font-size: 10px; line-height: 13px; }
+    .Prp-Product-HeroSec-Text { font-size: 23px; line-height: 28px; }
+    .Prp-Product-HeroSec-sub-heading { font-size: 9px; line-height: 13px; }
     .Prp-Product-cards-title { font-size: 8px; }
     .Prp-Product-Info-text { font-size: 10px; }
     .Prp-Login-Page-Form-Text { font-size: 24px; }
@@ -611,6 +611,8 @@ flex-grow: 1;
     .Prp-Login-Input-Container label { font-size: 12px; }
     .Prp-Login-Input { font-size: 14px; }
     .Prp-Login-forgot-Text, .Prp-Login-Account-Creation-Link, .Prp-Login-NavLinks a { font-size: 11px; }
+    .Prp-Product-Image-Wrapper img{width: 9px; height: 6px;}
+    .Prp-Login-Verification-Selector,.Prp-Login-Verification-Selector-Active{padding: 10px;}
 
     /* Paddings & Icons */
     .Prp-ProductLogo-img-container { padding: 8px; border-radius: 10px; }

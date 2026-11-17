@@ -10,6 +10,8 @@
     align-items: center;
     border-bottom: 1px solid #555;
     width: 100%;
+    position: sticky;
+    top: 0;
 }
 .Prp-Landing-Button{
     display: flex;
@@ -59,8 +61,112 @@
     font-size: 24px;
     font-weight: 800;
     color: #004;
-    width: 300px;
+    max-width: 300px;
+    width: 100%;
     letter-spacing: -1.4px;
+}
+.Prp-Landing-AL-Header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 25px 20px;
+    position: sticky;
+    top: 0;
+    z-index: 1000;
+    backdrop-filter: blur(100px);
+}
+
+.Prp-Registration-AL-Header{
+    display: flex;
+}
+
+.Prp-Registration-Title-Wrapper{
+    display: flex;
+    flex-direction: column;
+    
+}
+.Prp-AL-Header-Searchbar{
+    display: flex;
+    /* justify-content: center; */
+    align-items: center;
+    max-width: 600px;
+    width: 100%;
+    background-color: #FFFFFF;
+    border-radius: 8px;
+    border: 1px solid #132A564D;
+    gap: 10px;
+    padding-left: 25px;
+}
+.Prp-AL-Header-Searchbar-input{
+    border: none;
+    outline: none;
+    padding: 10px 0;
+    border-radius: 5;
+    width: 100%;
+}
+.Prp-AL-Nav-Container{
+    display: flex;
+    justify-content: space-evenly;
+    gap: 25px;
+
+}
+.Prp-AL-Nav-Item{
+    width: 22px;
+}
+.Prp-AL-Nav-Item:Hover{
+    cursor: pointer;
+}
+.Prp-AL-Profile-Wrapper{
+    display: flex;
+    gap: 7px;
+}
+
+.Prp-AL-Profile-Wrapper {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  align-items: center;
+}
+
+
+.Prp-Profile-Dropdown {
+  position: absolute;
+  justify-content: end;
+  top: 50px;
+  right: 20px;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0px 4px 16px rgba(0, 0, 0, 0.12);
+  width: 200px;
+  padding: 8px 0;
+  z-index: 1000;
+}
+
+.Prp-Profile-Dropdown ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.Prp-Profile-Dropdown li {
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  padding: 10px 16px;
+  color: #334155;
+  font-size: 14px;
+  font-weight: 500;
+  transition: background-color 0.2s ease;
+}
+
+.Prp-Profile-Dropdown li:hover {
+  background-color: #f1f5f9;
+  color: #1e293b;
+}
+
+.Prp-Profile-Dropdown li img {
+  width: 18px;
+  height: 18px;
 }
 
 @media screen and (max-width: 1599px){
@@ -76,17 +182,30 @@
     .Prp-Header-Nav-Items{
         font-size: 13px;
     }
+    .Prp-Landingpage-Login-Button{
+        padding: 5px 10px ;
+    }
+    
 
 }
 @media screen and (max-width: 1365px){
     
 }
 @media screen and (max-width: 1024px){
-    
-}
-@media screen and (max-width: 1599px){
-    
-}
-@media screen and (max-width: 1599px){
+      .Prp-Landing-Header{
+        gap: 30px;
+    }
+    .Prp-Header-Navbar{
+        gap: 15px;
+    }
+    .Prp-Header-Logo{
+        font-size: 16px;
+    }
+    .Prp-Header-Nav-Items{
+        font-size: 10px;
+    }
+    .Prp-Header-Logo{
+        max-width: 180px;
+    }
     
 }
